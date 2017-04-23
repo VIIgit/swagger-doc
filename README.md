@@ -2,8 +2,8 @@
 How to document swagger files
 
 
-https://viigit.github.io/swagger-doc/swagger-editor/index.html
+[Swagger Editor](https://viigit.github.io/swagger-doc/swagger-editor/index.html?url=https://viigit.github.io/swagger-doc/api/example/swagger.yaml)   
 
-https://viigit.github.io/swagger-doc/swagger-ui/index.html
+[Swagger UI](https://viigit.github.io/swagger-doc/swagger-ui/index.html?url=https://viigit.github.io/swagger-doc/api/example/swagger.yaml)
 
-https://viigit.github.io/swagger-doc/api/example/swagger.yaml
+
