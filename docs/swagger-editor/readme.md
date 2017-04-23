@@ -1,0 +1,1 @@
+minimal distribution files of swagger editor (http://swagger.io/)

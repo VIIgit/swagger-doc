@@ -1,0 +1,1 @@
+minimal distribution files of swagger ui (http://swagger.io/)
