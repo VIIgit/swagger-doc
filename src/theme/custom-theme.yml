@@ -1,0 +1,53 @@
+title_page:
+  align: left
+  logo_image: image:W.png[width=100,align=right]
+  logo:
+    top: 0%  
+page:
+  layout: portrait
+  margin: [0.75in, 1in, 0.75in, 1in]
+  size: A4
+base:
+  font_color: #333333
+  font_family: Times-Roman
+  font_size: 10
+  line_height_length: 13
+  line_height: 1
+  x-line_height: $base_line_height_length / $base_font_size
+
+
+title_page_title:
+  title:
+    text_transform: uppercase
+    
+vertical_rhythm: $base_line_height_length
+heading:
+  font_color: #090909
+  font_size: 17
+  font_style: bold
+  line_height: 1.2
+  margin_bottom: $vertical_rhythm
+link:
+  font_color: #009900
+outline_list:
+  indent: $base_font_size * 1.5
+header:
+  height: 0.75in
+  line_height: 1
+  recto_content:
+    center: '{document-title}'
+  verso_content:
+    center: '{document-title}'
+footer:
+  height: 0.75in
+  line_height: 1
+  recto_content:
+    right: '{chapter-title} | *{page-number}*'
+  verso_content:
+    left: '*{page-number}* | {chapter-title}'
+image:
+  align: center
+caption:
+  align: center
+  font_color: #FF0000
+  font_size: 10
