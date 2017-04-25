@@ -6,45 +6,49 @@ info:
     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For
     this sample, you can use the api key `special-key` to test the authorization filters.
     
-    MARKDOWN HINT:
+    ### MARKDOWN HINT 
+    
+    ### Heading 3
 
-    ## Heading
+    ####Text attributes
+    standard _italic_, *italic*, __bold__, **bold**, `monospace`.
 
-    Text attributes _italic_, *italic*, __bold__, **bold**, `monospace`.
-
-    Horizontal rule:
+    ####Horizontal rule
 
     ---
 
-    Bullet list:
+    ####Bullet list
 
       * apples
       * oranges
       * pears
 
-    Numbered list:
+    ####Numbered list
 
       1. apples
       2. oranges
       3. pears
 
+    ####Link
     A [link](http://example.com).
 
-    Tables:
-
-    | Column1 | Collumn2 |
-    | ------- | -------- |
-    | cell1   | cell2    |    
+    ####Tables
+                                      
+    | Column1 | Collumn2 |  Collumn3 |
+    | ------- | :------: |  -------: |
+    | default | center   |  right    |   
+    | cell1   | cell2    |  cell3    |   
+    | cell1   | cell2    |  cell3    |   
     
     
   version: 1.0.0
-  title: Swagger Petstore
-  termsOfService: http://swagger.io/terms/
+  title: "API: Swagger Petstore's"
+  termsOfService: 'http://swagger.io/terms/'
   contact:
     email: apiteam@swagger.io
   license:
     name: Apache 2.0
-    url: http://www.apache.org/licenses/LICENSE-2.0.html
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 host: petstore.swagger.io
 basePath: "/v2"
 tags:

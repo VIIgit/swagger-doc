@@ -169,7 +169,8 @@
                             <sourceHighlighter>rouge</sourceHighlighter>
                             <doctype>book</doctype>
                             <attributes>
-                                <pdf-stylesdir>${project.basedir}/src/theme</pdf-stylesdir>
+                            	<pdf-stylesdir>${project.basedir}/src/theme</pdf-stylesdir>
+                            	<pdf-fontsdir>${project.basedir}/src/theme</pdf-fontsdir>
                                 <pdf-style>custom</pdf-style>
                                 <icons>font</icons>
                                 <pagenums/>

@@ -12,18 +12,50 @@ page:
   size: A4
 base:
   font_color: #333333
-  font_family: Times-Roman
+  x-font_family: Times-Roman
   font_size: 10
-  line_height_length: 13
+  line_height_length: 12
   line_height: 1
   x-line_height: $base_line_height_length / $base_font_size
 
 
 table:
-  head:
-    background_color: #f0f0f0
-    font_color: #333333
 
+  border_color: #ff0000
+  border_width: 0
+  grid_color: #fcfcfc
+  grid_style: solid
+  grid_width: 0.5
+  head:
+    background_color: #c0c0c0
+    font_color: #333333    
+  body:
+    stripe_background_color: #eaeaea
+  cell:
+    padding: [3, 2, 0, 2]
+
+literal:
+  font_size: 9
+
+
+toc_h1:
+  font_size: 12
+toc_h2:
+  font_size: 12
+    
+block:
+  margin_top: 0
+  margin_bottom: 2
+
+code:
+  font_size: 9
+
+blockquote:
+  font_size: 11
+  
+example:
+  font_size: 10
+  
 vertical_rhythm: $base_line_height_length
 heading:
   font_color: #090909
@@ -39,7 +71,7 @@ header:
   height: 0.75in
   line_height: 1
   recto_content:
-    center: '{document-title}'
+    center: '{document-subtitle}'
   verso_content:
     center: '{document-title}'
 footer:
