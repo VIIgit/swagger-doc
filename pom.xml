@@ -12,7 +12,7 @@
 		<asciidoctorj.version>1.5.5</asciidoctorj.version>
         <jruby.version>9.1.8.0</jruby.version>
         <!-- Custom Theme -->
-        <rubygems.prawn.version>2.0.2</rubygems.prawn.version>
+        <rubygems.prawn.version>2.2.2</rubygems.prawn.version>
 	</properties>
 	
 	<pluginRepositories>
